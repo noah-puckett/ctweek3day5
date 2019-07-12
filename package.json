@@ -1,0 +1,32 @@
+{
+  "name": "ctweek3day5",
+  "version": "1.0.0",
+  "description": "Middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noah-puckett/ctweek3day5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noah-puckett/ctweek3day5/issues"
+  },
+  "homepage": "https://github.com/noah-puckett/ctweek3day5#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "superagent": "^5.1.0",
+    "supertest": "^4.0.2"
+  }
+}
