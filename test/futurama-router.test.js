@@ -55,4 +55,5 @@ describe('futurama api routes', () => {
                 expect(res.body).toEqual({ name: 'kyle kyleson', favoriteChar: 'fry', tagline: expect.any(String) });
             });
     });
+    
 });
